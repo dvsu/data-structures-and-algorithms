@@ -1,6 +1,5 @@
 # Task
-#   implementation of fractional knapsack problem
-#   Calculate the maximum value of
+#   implement an algorithm for the fractional knapsack problem
 
 # Input format
 #   n W
