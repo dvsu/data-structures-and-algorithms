@@ -1,0 +1,37 @@
+import { LinkedList } from "./linked-list.js";
+
+const linkedList = new LinkedList({ logging: true });
+
+linkedList.push("first");
+linkedList.push("second");
+linkedList.push("third");
+linkedList.pop();
+linkedList.pop();
+linkedList.pop();
+linkedList.pop();
+linkedList.push("fourth");
+linkedList.shift();
+linkedList.shift();
+linkedList.shift();
+linkedList.push("fifth");
+linkedList.push("sixth");
+linkedList.unshift("seventh");
+linkedList.pop();
+linkedList.pop();
+linkedList.pop();
+linkedList.push("10");
+linkedList.push("20");
+linkedList.unshift("30");
+linkedList.push("40");
+linkedList.unshift("50");
+linkedList.getNthNode(3);
+linkedList.getNthNode(5);
+linkedList.setNthNode(2, "100");
+linkedList.setNthNode(-2, "1000");
+linkedList.insert(3, "123");
+linkedList.insert(6, "7000");
+linkedList.insert(0, "10000");
+linkedList.insert(1, "11111");
+linkedList.remove(3);
+linkedList.reverse();
+linkedList.insert(6, "350");
